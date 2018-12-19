@@ -41,5 +41,5 @@ private:
 	TP_IO* m_pTPIO;
 	State m_State;
 	SOCKET m_Socket;
-	BYTE m_recvBuffer[MAX_RECV_BUFFER];
+	BYTE m_recvBuffer[MAX_RECV_BUFFER+1];
 };
